@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tensfer test</title>
+    <script src="/dist/bundle.js"></script>
+  </head>
+  <body>
+    <div id="tensfer-widget-wrapper">
+      <p>Please click the button to initialize the widget</p>
+
+      <button id="button">Load widget</button>
+    </div>
+
+    <script type="text/javascript">
+      const tensfer = new Tensfer();
+
+      const openWidget = () => {
+        tensfer.newTransaction({
+          companyName: "", //Your company name
+          publicKey: "", //Your public key from the Tensfer dashboard,
+          products: ["auth", "balance", "transactions"],
+          onSuccess: function (data) {
+            console.log("Success!", data);
+          },
+          onError: function (data) {
+            // an error occured
+            console.log("Error!", data);
+          },
+          onClose: function (data) {
+            // user closed widget
+            console.log("Exited!", data);
+          },
+        });
+      };
+
+      button.addEventListener("click", openWidget);
+    </script>
+  </body>
+</html>

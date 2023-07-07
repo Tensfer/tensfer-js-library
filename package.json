@@ -1,0 +1,24 @@
+{
+  "name": "@tensferhq/tensfer-js",
+  "version": "1.0.0",
+  "description": "javascript library for tensfer widget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tensfer/tensfer-js-library.git"
+  },
+  "keywords": [
+    "tensfer-js",
+    "TensferJs",
+    "tensfer-widget"
+  ],
+  "author": "Dennis Terna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tensfer/tensfer-js-library/issues"
+  },
+  "homepage": "https://github.com/Tensfer/tensfer-js-library#readme"
+}
