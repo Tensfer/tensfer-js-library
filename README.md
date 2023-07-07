@@ -1,6 +1,6 @@
 # Tensfer SDK
 
-JS library for implementing the Tensfer widget - TensferJs is a safe and secure web drop-in module and this library provides a front-end web for account, authentication, balance and transaction across multiple CEX/DEX.. 
+TensferJs is a safe and secure web drop-in module and this library provides a front-end web for account, authentication, balance and transaction retrieval across multiple CEX/DEX.
 
 ## Try the demo
 Checkout the [widget flow](https://tensfer.co) to view how the Tensfer Widget works. *Click "See How it Works"*
