@@ -1,13 +1,12 @@
 # Tensfer Widget JavaScript SDK
-![alt text](https://files.readme.io/41dcda7-react-native-black.svg)
 
-JS library for implementing the Tensfer widget - TensferJs is a safe and secure web drop-in module and this library provides a front-end web. 
+JS library for implementing the Tensfer widget - TensferJs is a safe and secure web drop-in module and this library provides a front-end web for account, authentication, balance and transaction across multiple CEX/DEX.. 
 
 ## Try the demo
-Checkout the [widget flow](https://tensfer.co) to view how the Okra Widget works. *Click "See How it Works"*
+Checkout the [widget flow](https://tensfer.co) to view how the Tensfer Widget works. *Click "See How it Works"*
 
 ## Getting your keys.
-Before you can use any Tensfer SDK, you'd need a tensfer account, head on to [Tensfer Dashboard](#) and create your account. 
+Before you can use any Tensfer SDK, you'd need a tensfer account, head on to [Tensfer Dashboard](https://app.tensfer.co) and create your account. 
 ## Installation
 You can install Tensfer in your web application using npm or yarn.
 
