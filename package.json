@@ -1,12 +1,15 @@
 {
   "name": "@tensferhq/tensfer-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "javascript library for tensfer widget",
   "main": "dist/bundle.js",
+  "type": "module",
+  "module": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "exports": {
+    "./package.json": "./package.json",
     ".": {
       "import": "./dist/bundle.js"
     }
@@ -19,6 +22,10 @@
     "tensfer-js",
     "TensferJs",
     "tensfer-widget"
+  ],
+  "files": [
+    "dist",
+    "example"
   ],
   "author": "Dennis Terna",
   "license": "MIT",

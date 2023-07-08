@@ -14,9 +14,17 @@ Before you can use any Tensfer SDK, you'd need a tensfer account, head on to [Te
 
 You can install Tensfer in your web application using npm or yarn.
 
-using npm:`npm install @tensferhq/tensfer-js`
+### using npm:
 
-using yarn: `yarn add @tensferhq/tensfer-js`
+```js
+npm install '@tensferhq/tensfer-js'
+```
+
+### using yarn:
+
+```js
+yarn add '@tensferhq/tensfer-js'
+```
 
 ## Usage
 
