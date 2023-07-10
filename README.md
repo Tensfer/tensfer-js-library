@@ -33,9 +33,7 @@ For JS frameworks import it and use
 ```ts
 import Tensfer from "@tensferhq/tensfer-js";
 
-const tensfer = new Tensfer();
-
-tensfer.linkWithOptions({
+Tensfer.linkWithOptions({
   companyName: "", //Your company name
   publicKey: "", //Your public key from the Tensfer dashboard,
   products: ["auth", "balance", "transactions"],

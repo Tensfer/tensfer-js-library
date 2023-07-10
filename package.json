@@ -1,10 +1,10 @@
 {
   "name": "@tensferhq/tensfer-js",
-  "version": "1.0.3",
+  "version": "2.0.1",
   "description": "javascript library for tensfer widget",
   "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
   "type": "module",
-  "module": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

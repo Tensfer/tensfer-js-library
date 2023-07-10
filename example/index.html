@@ -15,10 +15,8 @@
     </div>
 
     <script type="text/javascript">
-      const tensfer = new Tensfer();
-
       const openWidget = () => {
-        tensfer.linkWithOptions({
+        Tensfer.linkWithOptions({
           companyName: "", //Your company name
           publicKey: "", //Your public key from the Tensfer dashboard,
           products: ["auth", "balance", "transactions"],
