@@ -50,9 +50,9 @@ Tensfer.linkWithOptions({
     // an error occured
     console.log("Error!", data);
   },
-  onClose: function (data) {
+  onClose: function () {
     // user closed widget
-    console.log("Exited!", data);
+    console.log("user closed widget");
   },
 });
 ```
