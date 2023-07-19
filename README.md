@@ -26,6 +26,12 @@ npm install '@tensferhq/tensfer-js'
 yarn add '@tensferhq/tensfer-js'
 ```
 
+### using CDN:
+
+```js
+https://unpkg.com/@tensferhq/tensfer-js@2.0.1
+```
+
 ## Usage
 
 For JS frameworks import it and use
