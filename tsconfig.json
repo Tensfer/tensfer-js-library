@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "esnext",
+        "target": "es5",
+        "jsx": "react",
+        "lib": ["esnext", "DOM"],
+        "allowJs": true,
+        "sourceMap": true,
+        "noUnusedParameters": true,
+        "declarationMap": true,
+        "declaration": true,
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src"],
+    "files": ["src/index.ts"],
+    "exclude": ["node_modules"]
+}
